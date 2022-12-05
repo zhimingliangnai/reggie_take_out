@@ -19,7 +19,13 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <!--导入spring data redis 坐标-->
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
         <!--导入sdk核心库-->
         <dependency>
             <groupId>com.aliyun</groupId>
